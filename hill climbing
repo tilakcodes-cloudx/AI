@@ -1,0 +1,9 @@
+numbers = [5, 8, 12, 15, 10, 6]
+
+peak = numbers[0]
+
+for i in numbers:
+    if i > peak:
+        peak = i
+
+print("Peak value is:", peak)
