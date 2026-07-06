@@ -1,0 +1,25 @@
+square = [
+    [8,1,6],
+    [3,5,7],
+    [4,9,2]
+]
+
+s = sum(square[0])
+
+ok = True
+
+for row in square:
+    if sum(row) != s:
+        ok = False
+
+for i in range(3):
+    total = 0
+    for j in range(3):
+        total += square[j][i]
+    if total != s:
+        ok = False
+
+if ok:
+    print("Magic Square")
+else:
+    print("Not Magic Square")
