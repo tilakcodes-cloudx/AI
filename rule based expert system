@@ -1,0 +1,8 @@
+weather = input("Enter weather (sunny/rainy): ")
+
+if weather == "sunny":
+    print("Go outside")
+elif weather == "rainy":
+    print("Take an umbrella")
+else:
+    print("Stay home")
