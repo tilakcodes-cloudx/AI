@@ -1,0 +1,9 @@
+numbers = [12, 45, 8, 90, 25]
+
+maximum = numbers[0]
+
+for i in numbers:
+    if i > maximum:
+        maximum = i
+
+print("Maximum =", maximum)
