@@ -1,0 +1,12 @@
+jug1 = 4
+jug2 = 3
+
+print("Fill Jug2:", jug1, jug2)
+jug2 = 0
+
+print("Empty Jug2:", jug1, jug2)
+
+jug2 = 3
+jug1 = 1
+
+print("Final State:", jug1, jug2)
