@@ -1,0 +1,6 @@
+light = input("Light (on/off): ")
+
+if light == "on":
+    print("Agent says: Turn it OFF")
+else:
+    print("Agent says: Turn it ON")
